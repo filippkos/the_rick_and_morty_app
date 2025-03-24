@@ -1,6 +1,5 @@
 import 'package:the_rick_and_morty_app/feature/data/models/location_model.dart';
 import 'package:the_rick_and_morty_app/feature/domain/entities/person_entity.dart';
-import 'package:dartz/dartz.dart';
 
 class PersonModel extends PersonEntity {
   const PersonModel({

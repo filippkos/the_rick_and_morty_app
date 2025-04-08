@@ -13,6 +13,7 @@ class PersonDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Character')),
       body: SingleChildScrollView(
+        padding: EdgeInsets.symmetric(horizontal: 16),
         child: Column(
           children: [
             SizedBox(height: 24),
